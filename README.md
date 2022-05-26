@@ -1,4 +1,12 @@
+Most Important Links
+
+Tableau viz: https://public.tableau.com/app/profile/abhinav.gadde/viz/baywheels_visualization/Totalview?publish=yes
+
+Data Warehouse: https://s3.amazonaws.com/baywheels-data/index.html
+
+
 Background
+
 This document is intended to be a complete walk-through of this project for those brand new to the baywheels data. This is data that Lyft, who runs the bike share program in San Fran, releases on a monthly basis as a csv file on this website: https://s3.amazonaws.com/baywheels-data/index.html
 Note that Ford used to run the program before Lyft so that is why Ford’s name is on some of the files. Column names and detail of columns differ slightly between the Ford and Lyft csv files. For the purposes, of this project, we will only use fields contained in both Ford and Lyft datasets.
 Here are the key fields
@@ -8,6 +16,7 @@ Here are the key fields
 4.	Bike Share for all indicator: This is a program that allows low income residents to get a heavily discounted membership for baywheels
 
 Goal
+
 The goal for this project was to predict future total daily ride time. This is for multiple reasons
 1.	To see if there is a trend or seasonality in ride time
 2.	To see if covid had any effects on ride time
@@ -55,9 +64,14 @@ This is a minimum viable product, and many improvements / enhancements can be ma
 
 Helpful links / resources
 
-How to upload/download data into/from an AWS S3 bucket: https://towardsdatascience.com/how-to-upload-and-download-files-from-aws-s3-using-python-2022-4c9b787b15f2
+How to upload/download data into/from an AWS S3 bucket: 
 
-How to use fbprophet: https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/
+https://towardsdatascience.com/how-to-upload-and-download-files-from-aws-s3-using-python-2022-4c9b787b15f2
 
-How to get a baseline model:  https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/#:~:text=Persistence%20Algorithm%20(the%20%E2%80%9Cnaive%E2%80%9D%20forecast)&text=The%20equivalent%20technique%20for%20use,step%20(t%2B1).
+How to use fbprophet: 
+
+https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/
+
+How to get a baseline model:  
+https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/#:~:text=Persistence%20Algorithm%20(the%20%E2%80%9Cnaive%E2%80%9D%20forecast)&text=The%20equivalent%20technique%20for%20use,step%20(t%2B1).
 
